@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Po2c0FdbEeqmJeKzkJHFFw" confirmationNeeded="false" name="development">
+  <contextParameter xmi:id="_Po2c0VdbEeqmJeKzkJHFFw" comment="Directorio para almacenar el get del proudcto de liverpool" name="folderTemp" prompt="folderTemp?" promptNeeded="false" type="id_String" value="/comparo/tmp/"/>
+  <contextParameter xmi:id="_Po2c0ldbEeqmJeKzkJHFFw" comment="Ip del servidor" name="host" prompt="host?" promptNeeded="false" type="id_String" value="127.0.0.1"/>
+  <contextParameter xmi:id="_Po2c01dbEeqmJeKzkJHFFw" comment="Usuario de bd" name="user" prompt="user?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_Po2c1FdbEeqmJeKzkJHFFw" comment="Password de bd" name="password" prompt="password?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_Po2c1VdbEeqmJeKzkJHFFw" comment="Base de datos" name="bd" prompt="bd?" promptNeeded="false" type="id_String" value="comparo"/>
+  <contextParameter xmi:id="_Po2c1ldbEeqmJeKzkJHFFw" comment="Puerto de base de datos" name="puerto" prompt="puerto?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_Po2c11dbEeqmJeKzkJHFFw" comment="Ruta del fichero de log" name="pathlog" prompt="pathlog?" promptNeeded="false" type="id_String" value="/comparo/logs/"/>
+  <contextParameter xmi:id="_Po2c2FdbEeqmJeKzkJHFFw" comment="Nombre del fichero de log" name="pathfile" prompt="pathfile?" promptNeeded="false" type="id_String" value="comparo.log"/>
+  <contextParameter xmi:id="_Po2c2VdbEeqmJeKzkJHFFw" comment="Ruta del template html" name="pathhtmlin" prompt="pathhtmlin?" promptNeeded="false" type="id_String" value="/comparo/html/in/"/>
+  <contextParameter xmi:id="_Po2c2ldbEeqmJeKzkJHFFw" comment="Nombre del fihero html generado" name="pathfilehtml" prompt="pathfilehtml?" promptNeeded="false" type="id_String" value="resultado"/>
+  <contextParameter xmi:id="_Po2c21dbEeqmJeKzkJHFFw" comment="Smtp de gmail" name="smtpgmail" prompt="smtpgmail?" promptNeeded="false" type="id_String" value="mail.prigus.com"/>
+  <contextParameter xmi:id="_Po2c3FdbEeqmJeKzkJHFFw" comment="Puerto de gmail" name="portgmail" prompt="portgmail?" promptNeeded="false" type="id_String" value="465"/>
+  <contextParameter xmi:id="_Po2c3VdbEeqmJeKzkJHFFw" comment="Usuario gmail" name="usergmail" prompt="usergmail?" promptNeeded="false" type="id_String" value="contacto@prigus.com"/>
+  <contextParameter xmi:id="_Po2c3ldbEeqmJeKzkJHFFw" comment="Password gmail" name="paswdgmail" prompt="paswdgmail?" promptNeeded="false" type="id_String" value="rendola7848"/>
+  <contextParameter xmi:id="_Po2c31dbEeqmJeKzkJHFFw" comment="Ruta del html a generar" name="pathhtmlout" prompt="pathhtmlout?" promptNeeded="false" type="id_String" value="/comparo/html/out/"/>
+  <contextParameter xmi:id="_Po2c4FdbEeqmJeKzkJHFFw" comment="Ruta del git" name="pathgit" prompt="pathgit?" promptNeeded="false" type="id_String" value="/comparo/comparo/"/>
+  <contextParameter xmi:id="_Po2c4VdbEeqmJeKzkJHFFw" comment="Nombre del template html datatable" name="templatehtmldatatable" prompt="templatehtmldatatable?" promptNeeded="false" type="id_String" value="template-datatable.html"/>
+  <contextParameter xmi:id="_Po2c4ldbEeqmJeKzkJHFFw" comment="Variable nombre del usuario que se le envia email" name="emailName" prompt="emailName?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_Po2c41dbEeqmJeKzkJHFFw" comment="ftp servidor" name="ftphost" prompt="ftphost?" promptNeeded="false" type="id_String" value="ftp.prigus.com"/>
+  <contextParameter xmi:id="_Po2c5FdbEeqmJeKzkJHFFw" comment="ftp puerto" name="ftpport" prompt="ftpport?" promptNeeded="false" type="id_Integer" value="21"/>
+  <contextParameter xmi:id="_Po2c5VdbEeqmJeKzkJHFFw" comment="ftp usuario" name="ftpuser" prompt="ftpuser?" promptNeeded="false" type="id_String" value="talend@prigus.com"/>
+  <contextParameter xmi:id="_Po2c5ldbEeqmJeKzkJHFFw" comment="ftp password" name="ftppassword" prompt="ftppassword?" promptNeeded="false" type="id_String" value="rendola7848"/>
+</talendfile:ContextType>

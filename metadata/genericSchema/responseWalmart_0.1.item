@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_a7AZYLR_EemngKtbO7xQ4A" name="repository.metadataGenericSchema" dataPackage="_a7BAcLR_EemngKtbO7xQ4A"/>
+  <TalendMetadata:GenericPackage xmi:id="_a7BAcLR_EemngKtbO7xQ4A" name="repository.metadataGenericSchema" dataManager="_a7AZYLR_EemngKtbO7xQ4A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_a7BAcbR_EemngKtbO7xQ4A" id="_4ToVsLR-EemngKtbO7xQ4A" label="responseWalmart">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a7BAcrR_EemngKtbO7xQ4A" name="productId" label="productId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a7BAc7R_EemngKtbO7xQ4A" name="productDisplayText" label="productDisplayText" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a7BAdLR_EemngKtbO7xQ4A" name="productURL" label="productURL" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_a7BAdbR_EemngKtbO7xQ4A" name="skuPrice" label="skuPrice" length="-1" talendType="id_BigDecimal"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lcD_gLSOEemngKtbO7xQ4A" name="storeName" label="storeName" length="-1" talendType="id_String">
+        <initialValue xmi:id="_m3ajMLSOEemngKtbO7xQ4A" body=""/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
